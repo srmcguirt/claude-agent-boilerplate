@@ -2,9 +2,7 @@
 
 **Production-ready Claude agent starter** — tool calling, streaming, multi-turn memory, and MCP client wiring. Ship a working AI agent in minutes.
 
-[![npm version](https://img.shields.io/npm/v/@wireforge/claude-agent-boilerplate.svg)](https://www.npmjs.com/package/@wireforge/claude-agent-boilerplate)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white) ![Node](https://img.shields.io/badge/Node-%3E%3D18-339933?logo=node.js&logoColor=white)
 
 > 💎 **Premium edition** with multi-agent orchestration, MCP client integration, FastAPI wrapper, and 6 real-world examples → [Get it on Gumroad →](https://srmcguirt.gumroad.com)
 
