@@ -2,11 +2,11 @@
 
 **Production-ready Claude agent starter** — tool calling, streaming, multi-turn memory, and MCP client wiring. Ship a working AI agent in minutes.
 
-[![npm version](https://img.shields.io/npm/v/@aipackages/claude-agent-boilerplate.svg)](https://www.npmjs.com/package/@aipackages/claude-agent-boilerplate)
+[![npm version](https://img.shields.io/npm/v/@wireforge/claude-agent-boilerplate.svg)](https://www.npmjs.com/package/@wireforge/claude-agent-boilerplate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 💎 **Premium edition** with multi-agent orchestration, MCP client integration, FastAPI wrapper, and 6 real-world examples → [Get it on Gumroad →](https://gumroad.com)
+> 💎 **Premium edition** with multi-agent orchestration, MCP client integration, FastAPI wrapper, and 6 real-world examples → [Get it on Gumroad →](https://srmcguirt.gumroad.com)
 
 ---
 
@@ -34,7 +34,7 @@
 
 ```bash
 # Clone and install
-git clone https://github.com/ai-packages/claude-agent-boilerplate my-agent
+git clone https://github.com/srmcguirt/claude-agent-boilerplate my-agent
 cd my-agent && npm install
 
 # Add your Anthropic API key
@@ -51,7 +51,7 @@ npm run example
 
 ```typescript
 import 'dotenv/config';
-import { BaseAgent } from '@aipackages/claude-agent-boilerplate';
+import { BaseAgent } from '@wireforge/claude-agent-boilerplate';
 
 // Define a tool
 const calculatorTool = {
@@ -162,11 +162,11 @@ The open source version gives you a working agent core. The **premium edition** 
 - ✅ Production deployment guide (Railway, Render, Fly.io)
 - ✅ Commercial license
 
-**[Get the premium edition →](https://gumroad.com)**
+**[Get the premium edition →](https://srmcguirt.gumroad.com)**
 
 ---
 
 ## License
 
 MIT — free for personal and open source use.  
-Commercial license included in the [Premium Edition](https://gumroad.com).
+Commercial license included in the [Premium Edition](https://srmcguirt.gumroad.com).
