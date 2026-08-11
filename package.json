@@ -1,5 +1,5 @@
 {
-  "name": "@aipackages/claude-agent-boilerplate",
+  "name": "@wireforge/claude-agent-boilerplate",
   "version": "1.0.0",
   "description": "Production-ready Claude agent starter — tool calling, MCP client, streaming, memory, multi-turn",
   "keywords": [
@@ -13,7 +13,7 @@
     "boilerplate",
     "typescript"
   ],
-  "author": "AI Packages",
+  "author": "WireForge",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
@@ -42,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ai-packages/claude-agent-boilerplate"
+    "url": "https://github.com/srmcguirt/claude-agent-boilerplate"
   }
 }
