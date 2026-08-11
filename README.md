@@ -168,3 +168,11 @@ The open source version gives you a working agent core. The **premium edition** 
 
 MIT — free for personal and open source use.  
 Commercial license included in the [Premium Edition](https://srmcguirt.gumroad.com).
+
+---
+
+## 📬 Stay Updated
+
+Get a free sample prompt + updates when new tools ship:
+
+**→ [srmcguirt.github.io](https://srmcguirt.github.io)**
