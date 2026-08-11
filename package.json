@@ -1,0 +1,47 @@
+{
+  "name": "@aipackages/claude-agent-boilerplate",
+  "version": "1.0.0",
+  "description": "Production-ready Claude agent starter — tool calling, MCP client, streaming, memory, multi-turn",
+  "keywords": [
+    "claude",
+    "anthropic",
+    "ai-agent",
+    "mcp",
+    "tool-calling",
+    "llm",
+    "agent",
+    "boilerplate",
+    "typescript"
+  ],
+  "author": "AI Packages",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "example": "tsx src/examples/basic-agent.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "zod": "^3.22.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "vitest": "^1.2.0",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai-packages/claude-agent-boilerplate"
+  }
+}
