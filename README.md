@@ -164,6 +164,19 @@ The open source version gives you a working agent core. The **premium edition** 
 
 ---
 
+
+---
+
+## 💼 Get the Full Version
+
+**[Claude Agent Boilerplate — $29 on Gumroad](https://srmcguirt.gumroad.com/l/claude-agent)**
+
+MIT licensed. No vendor lock-in. Works in Claude, GPT-4, and Cursor.
+
+→ [Full product lineup](https://wireforge.fellwork.workers.dev)
+
+---
+
 ## License
 
 MIT — free for personal and open source use.  
@@ -175,4 +188,4 @@ Commercial license included in the [Premium Edition](https://srmcguirt.gumroad.c
 
 Get a free sample prompt + updates when new tools ship:
 
-**→ [srmcguirt.github.io](https://srmcguirt.github.io)**
+**→ [wireforge.fellwork.workers.dev](https://wireforge.fellwork.workers.dev)**
