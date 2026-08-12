@@ -1,7 +1,7 @@
 {
   "name": "@srmcguirt/claude-agent-boilerplate",
   "version": "1.0.0",
-  "description": "Production-ready Claude agent starter — tool calling, MCP client, streaming, memory, multi-turn",
+  "description": "Production-ready Claude agent starter \u2014 tool calling, MCP client, streaming, memory, multi-turn",
   "keywords": [
     "claude",
     "anthropic",
@@ -13,7 +13,7 @@
     "boilerplate",
     "typescript"
   ],
-  "author": "WireForge",
+  "author": "Shane McGuirt",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
