@@ -12,7 +12,7 @@ async function main() {
   const agent = new BaseAgent(
     [webSearchTool],
     {
-      model: 'claude-opus-4-5',
+      model: 'claude-opus-5',
       systemPrompt: `You are a helpful research assistant.
 When asked questions, use the web_search tool to find current information.
 Always cite your sources and be clear about what you found vs what you know.`,

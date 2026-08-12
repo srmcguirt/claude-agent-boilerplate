@@ -17,7 +17,7 @@ import { ConversationMemory } from '../memory/conversation-memory.js';
 import type { AgentTool, AgentConfig, AgentRunResult } from '../types.js';
 
 const DEFAULT_CONFIG: Required<AgentConfig> = {
-  model: 'claude-opus-4-5',
+  model: 'claude-opus-5',
   maxTokens: 4096,
   maxToolRounds: 10,
   systemPrompt: 'You are a helpful AI assistant.',
