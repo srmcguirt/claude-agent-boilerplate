@@ -49,7 +49,7 @@ npm run example
 
 ```typescript
 import 'dotenv/config';
-import { BaseAgent } from '@wireforge/claude-agent-boilerplate';
+import { BaseAgent } from '@srmcguirt/claude-agent-boilerplate';
 
 // Define a tool
 const calculatorTool = {
