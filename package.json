@@ -1,5 +1,5 @@
 {
-  "name": "@wireforge/claude-agent-boilerplate",
+  "name": "@srmcguirt/claude-agent-boilerplate",
   "version": "1.0.0",
   "description": "Production-ready Claude agent starter — tool calling, MCP client, streaming, memory, multi-turn",
   "keywords": [

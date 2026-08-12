@@ -14,6 +14,16 @@ export interface ConversationMemoryOptions {
   maxMessages?: number; // Max messages to keep (default: 50, ~25 turns)
 }
 
+/** A user message carrying tool_result blocks is only valid directly after the
+ *  assistant message whose tool_use blocks it answers. */
+function startsWithToolResult(message: MessageParam): boolean {
+  return (
+    message.role === 'user' &&
+    Array.isArray(message.content) &&
+    message.content.some((block) => (block as { type?: string }).type === 'tool_result')
+  );
+}
+
 export class ConversationMemory {
   private messages: MessageParam[] = [];
   private readonly maxMessages: number;
@@ -50,13 +60,20 @@ export class ConversationMemory {
   }
 
   /**
-   * Trim messages to maxMessages, always keeping the first message
-   * (which is often important context) and the most recent ones.
+   * Trim to maxMessages by dropping the oldest messages.
+   *
+   * The window can never open on a tool_result: the matching tool_use block
+   * lives in the assistant message immediately before it, so if that message
+   * gets dropped the API rejects the request with "unexpected tool_result".
+   * Keep discarding from the front until the leading message is safe.
    */
   private trim() {
-    if (this.messages.length > this.maxMessages) {
-      const excess = this.messages.length - this.maxMessages;
-      this.messages.splice(0, excess);
+    if (this.messages.length <= this.maxMessages) return;
+
+    this.messages.splice(0, this.messages.length - this.maxMessages);
+
+    while (this.messages.length > 0 && startsWithToolResult(this.messages[0])) {
+      this.messages.shift();
     }
   }
 
