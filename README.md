@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/srmcguirt/claude-agent-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/srmcguirt/claude-agent-boilerplate/actions/workflows/ci.yml) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white) ![Node](https://img.shields.io/badge/Node-%3E%3D18-339933?logo=node.js&logoColor=white)
 
-> 💎 **Premium edition** with multi-agent orchestration, MCP client integration, FastAPI wrapper, and 6 real-world examples → [Get it on Gumroad →](https://srmcguirt.gumroad.com)
+> 💎 **Premium edition** with multi-agent orchestration, MCP client integration, FastAPI wrapper, and 6 real-world examples → [Get it on Gumroad →](https://srmcguirt.gumroad.com/l/claude-agent)
 
 ---
 
@@ -74,7 +74,7 @@ const calculatorTool = {
 const agent = new BaseAgent(
   [calculatorTool],
   {
-    model: 'claude-opus-4-5',
+    model: 'claude-opus-5',
     systemPrompt: 'You are a helpful math tutor. Use the calculator tool for any calculations.',
     maxToolRounds: 5,
   }
@@ -141,7 +141,7 @@ claude-agent-boilerplate/
 
 ---
 
-## 💎 Premium Edition — $39
+## 💎 Premium Edition — $29
 
 The open source version gives you a working agent core. The **premium edition** adds:
 
@@ -160,7 +160,7 @@ The open source version gives you a working agent core. The **premium edition** 
 - ✅ Production deployment guide (Railway, Render, Fly.io)
 - ✅ Commercial license
 
-**[Get the premium edition →](https://srmcguirt.gumroad.com)**
+**[Get the premium edition →](https://srmcguirt.gumroad.com/l/claude-agent)**
 
 ---
 
@@ -171,16 +171,16 @@ The open source version gives you a working agent core. The **premium edition** 
 
 **[Claude Agent Boilerplate — $29 on Gumroad](https://srmcguirt.gumroad.com/l/claude-agent)**
 
-MIT licensed. No vendor lock-in. Works in Claude, GPT-4, and Cursor.
+MIT licensed. No vendor lock-in. Works in Claude, GPT-5.6, and Cursor.
 
-→ [Full product lineup](https://wireforge.fellwork.workers.dev)
+→ [Full product lineup](https://srmcguirt.dev)
 
 ---
 
 ## License
 
 MIT — free for personal and open source use.  
-Commercial license included in the [Premium Edition](https://srmcguirt.gumroad.com).
+Commercial license included in the [Premium Edition](https://srmcguirt.gumroad.com/l/claude-agent).
 
 ---
 
@@ -188,4 +188,4 @@ Commercial license included in the [Premium Edition](https://srmcguirt.gumroad.c
 
 Get a free sample prompt + updates when new tools ship:
 
-**→ [wireforge.fellwork.workers.dev](https://wireforge.fellwork.workers.dev)**
+**→ [srmcguirt.dev](https://srmcguirt.dev)**
